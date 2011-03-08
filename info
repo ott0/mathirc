@@ -1,0 +1,7 @@
+create table whowhat (id int(11) NOT NULL auto_increment primary key, who varchar(100), what text);
+
+
+:koro!koro@efnet.math.uwaterloo.ca PRIVMSG #math :uh, what?
+:humanzee!~humanzee@ip-208-109-29-94.ip.secureserver.net PRIVMSG #wewewet :ACTION talks
+:humanzee!~humanzee@ip-208-109-29-94.ip.secureserver.net PRIVMSG b1asketbal :ACTION walks
+:humanzee!~humanzee@ip-208-109-29-94.ip.secureserver.net PRIVMSG #wewewet :PRIVMSG yo
