@@ -9,7 +9,7 @@ $server_port = 6668;
 $server_chan = "#math";
 
 //Second lets grab our data from our form. 
-$nickname = "basketbal"; 
+$nickname = "bballcell"; 
     
 //Ok, We have a nickname, now lets connect. 
     $server = array(); //we will use an array to store all the server data. 
