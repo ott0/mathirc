@@ -3,8 +3,7 @@
 include('pw.php');
 
 //$pattern = '/\:([^\!\n]+)\![^ \n]* PRIVMSG [^ \n]+ \:([^\n]+)/';
-$pattern = '/\:([^\!\n]+)\![^ \n]* PRIVMSG \#math \:([^\n]+)/';
-
+$pattern = '/\:([^\!\n]+)\![^ \n]* PRIVMSG \#' . $chan . ' \:([^\n]+)/';
 
 while(!feof(STDIN))
 {
