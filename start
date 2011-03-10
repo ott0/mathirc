@@ -1,0 +1,1 @@
+php st1.php | php st2.php >> log 
