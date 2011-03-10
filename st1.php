@@ -1,16 +1,10 @@
 <?php 
+
+include 'pw.php';
+
 //First lets set the timeout limit to 0 so the page wont time out. 
 set_time_limit(0); 
 
-$server_host = "irc.colosolutions.net"; 
-//Server Port, this is the port that the irc server is running on. Deafult: 6667 
-$server_port = 6668; 
-//Server Chanel, After connecting to the IRC server this is the channel it will join. 
-$server_chan = "#math";
-
-//Second lets grab our data from our form. 
-$nickname = "bballcell"; 
-    
 //Ok, We have a nickname, now lets connect. 
     $server = array(); //we will use an array to store all the server data. 
     //Open the socket connection to the IRC server 
